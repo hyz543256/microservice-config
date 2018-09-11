@@ -1,17 +1,17 @@
-spring: 
+spring:
   profiles:
     active:
     - dev
 ---
-spring: 
+spring:
   profiles: dev              #开发环境
-    application:
-      name: microservicecloud-config-hyz-dev
+  application:
+       name: microservicecloud-config-hyz-dev
 ---
 
-spring: 
+spring:
   profiles: test              #测试环境
-    application:
-      name: microservicecloud-config-hyz-test
+  application:
+    name: microservicecloud-config-hyz-test
 
 #一定要保存为 utf-8
